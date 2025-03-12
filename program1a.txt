@@ -1,0 +1,11 @@
+Enter name: Kushal
+Enter age: 19
+Enter membership status (Active/Inactive): Active
+Enter membership duration (in months): 4
+
+----------------  MEMBERSHIP DETAILS ----------------
+Name: Kushal
+Age: 19
+Membership status: Active
+Membership duration: 4 months
+Membership fee: 6000.0

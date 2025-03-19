@@ -1,0 +1,8 @@
+Capacity of the object sb1 : 16
+Capacity of the object sb2 : 21
+ENTER A STRING 
+hello
+REVERSED LOWER CASE STRING : OLLEH
+ENTER A STRING
+world
+STRING AFTER APPENDING : ollehworld

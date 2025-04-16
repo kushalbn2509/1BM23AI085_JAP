@@ -12,10 +12,10 @@ class medicine {
     }
 }
 
-public class prog5 {
+public class program7 {
     private ArrayList<medicine> inventory;
 
-    public prog5() {
+    public program7() {
         inventory = new ArrayList<medicine>();
     }
 
@@ -41,7 +41,7 @@ public class prog5 {
     }
 
     public static void main(String[] args) {
-        prog5 manager = new prog5();
+        program7 manager = new program7();
         manager.addProduct("DOLO 650", 100, "FEVER-REDUCING",10);
         manager.addProduct("DIGENE", 50, "ACIDITY STABILIZER",40);
         manager.addProduct("PARACETAMOL", 100, "FEVER-REDUCING",50);

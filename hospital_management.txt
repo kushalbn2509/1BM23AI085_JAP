@@ -1,0 +1,12 @@
+Inventory:
+Name: DOLO 650, Price: 100.0, Category: FEVER-REDUCING
+Name: DIGENE, Price: 50.0, Category: ACIDITY STABILIZER
+Name: PARACETAMOL, Price: 100.0, Category: FEVER-REDUCING
+Inventory:
+Name: DOLO 650, Price: 100.0, Category: FEVER-REDUCING
+Name: DIGENE, Price: 50.0, Category: ACIDITY STABILIZER
+Name: PARACETAMOL, Price: 100.0, Category: FEVER-REDUCING
+Inventory:
+Name: DOLO 650, Price: 100.0, Category: FEVER-REDUCING
+Name: DIGENE, Price: 50.0, Category: ACIDITY STABILIZER
+Name: PARACETAMOL, Price: 100.0, Category: FEVER-REDUCING

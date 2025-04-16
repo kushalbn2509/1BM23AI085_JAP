@@ -1,0 +1,63 @@
+import java.util.ArrayList;
+class medicine {
+    String name;
+    double price;
+    String category;
+    int quantity;
+    public medicine(String name, double price, String category, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.category = category;
+        this.quantity=quantity;
+    }
+}
+
+public class prog5 {
+    private ArrayList<medicine> inventory;
+
+    public prog5() {
+        inventory = new ArrayList<medicine>();
+    }
+
+    public void addProduct(String name, double price, String category,int quantity) {
+        medicine Medicine = new medicine(name, price, category,quantity);
+        inventory.add(Medicine);
+    }
+
+    public void removeProduct(String name) {
+        for (int i = 0; i < inventory.size(); i++) {
+            if (inventory.get(i).name.equalsIgnoreCase(name)) {
+                inventory.remove(i);
+                break;
+            }
+        }
+    }
+
+    public void displayInventory() {
+        System.out.println("Inventory:");
+        for (medicine Medicine : inventory) {
+            System.out.println("Name: " + Medicine.name + ", Price: " + Medicine.price + ", Category: " + Medicine.category );
+        }
+    }
+
+    public static void main(String[] args) {
+        prog5 manager = new prog5();
+        manager.addProduct("DOLO 650", 100, "FEVER-REDUCING",10);
+        manager.addProduct("DIGENE", 50, "ACIDITY STABILIZER",40);
+        manager.addProduct("PARACETAMOL", 100, "FEVER-REDUCING",50);
+
+
+        manager.displayInventory();
+
+
+        manager.removeProduct("Book");
+
+
+        manager.displayInventory();
+
+        manager.removeProduct("Laptop");
+
+
+        manager.displayInventory();
+    }
+}

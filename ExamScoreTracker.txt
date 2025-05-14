@@ -1,0 +1,27 @@
+Enter Name of student 1:
+XXX
+Enter Marks of student 1:
+90
+XXX has scored a total of: 90
+Enter Name of student 2:
+yyy
+Enter Marks of student 2:
+100
+yyy has scored a total of: 100
+Enter Name of student 3:
+zzz
+Enter Marks of student 3:
+98
+zzz has scored a total of: 98
+Enter Name of student 4:
+iii
+Enter Marks of student 4:
+99
+iii has scored a total of: 99
+Enter Name of student 5:
+qqq
+Enter Marks of student 5:
+60
+qqq has scored a total of: 60
+The student with the highest marks is yyy with 100 marks.
+The total sum of marks for all students is: 447
